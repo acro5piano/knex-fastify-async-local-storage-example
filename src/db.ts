@@ -8,5 +8,5 @@ export const db = createKnex({
 })
 
 db.on('query', ({ sql, bindings }) => {
-  logger.info({ sql, bindings })
+  logger.info({ sql, bindings }, 'SQL')
 })
