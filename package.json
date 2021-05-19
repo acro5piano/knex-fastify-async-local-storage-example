@@ -1,0 +1,27 @@
+{
+  "name": "knex-fastify-async-local-storage-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:acro5piano/knex-fastify-async-local-storage-example",
+  "author": "gosho-kazuya <ketsume0211@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --ext ts -r esbuild-register/register src/index.js"
+  },
+  "dependencies": {
+    "esbuild-register": "^2.5.0",
+    "fastify": "^3.15.1",
+    "knex": "^0.95.6",
+    "nanoid": "^3.1.23",
+    "pino": "^6.11.3",
+    "pino-pretty": "^4.8.0",
+    "sqlite3": "^5.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "@types/pino": "^6.3.8",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.2.4"
+  }
+}
